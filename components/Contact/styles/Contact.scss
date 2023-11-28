@@ -1,0 +1,10 @@
+@tailwind components;
+
+@layer components{
+    .valid{
+        @apply border-solid border-b-[1px] border-[var(--site-green)];
+    }
+    .invalid{
+        @apply border-solid border-b-[1px] border-[var(--site-red)];
+    }
+}

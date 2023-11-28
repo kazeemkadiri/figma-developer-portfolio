@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components{
+    .social-links img{
+        @apply h-[20px] w-[20px] md:h-[25px] md:w-[25px];
+    }
+}

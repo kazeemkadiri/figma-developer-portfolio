@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "SPACEGROTESK";
+    src: url('../fonts/SpaceGrotesk-VariableFont_wght.ttf');
+}    
+
+:root{
+    --container-padding-desktop: 11.8%;
+    --container-padding-tablet: 1.875rem;
+    --site-black: #151515;
+    --site-dark-grey: #242424;
+    --site-green: #4EE1A0;
+    --site-grey: #D9D9D9;
+    --site-red: #FF6F5B;
+    --site-green-svg: filter: invert(84%) sepia(9%) saturate(2703%) hue-rotate(93deg) brightness(97%) contrast(82%);
+}
+
+html{
+    font-size: 1rem;
+}
+
+body{
+    max-width: 1440px;
+    font-family: 'SPACEGROTESK', sans-serif;
+}

@@ -1,0 +1,9 @@
+.social-links-icon{
+    :hover{
+        cursor: pointer;
+        filter: brightness(0) saturate(100%) invert(84%) sepia(9%) saturate(2703%) hue-rotate(93deg) brightness(97%) contrast(82%);
+    }
+    img{
+        @apply text-[1.25rem];
+    }
+}
